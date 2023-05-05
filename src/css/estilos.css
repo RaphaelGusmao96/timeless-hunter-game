@@ -11,7 +11,7 @@ main:after{
     position: fixed;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg, rgba(0,0,0,0.9276960784313726) 30%, rgba(0,0,0,0) 51%, rgba(14,16,22,0.8520658263305322) 73%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.614) 30%, rgba(0, 0, 0, 0.553) 51%, rgba(14, 16, 22, 0.405) 73%);
     z-index: -1;
 }
 
@@ -20,10 +20,11 @@ main:after{
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-evenly;
+    padding: 2.6rem;
 }
 
 .informacoes .logo{
-    max-width: 600px;
+    width: 60vw;
     margin-bottom: 40px;
     margin-left: -55px;
     margin-top: 45px;  
@@ -35,6 +36,7 @@ main:after{
     color: #ffffff;
     line-height: 30px;
     margin-left: -30px;
+    padding-bottom: 1.5rem;
 }
 
 .botoes-carrossel{
